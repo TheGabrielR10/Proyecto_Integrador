@@ -1,0 +1,59 @@
+/* App.css */
+
+/* Estilo general para el fondo de la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contenedor principal de la aplicación */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Encabezado de la aplicación */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Estilo para las listas del tablero */
+.lista {
+  background-color: #ffffff;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  width: 300px;
+  min-height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de cada lista */
+.lista h2 {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+/* Estilo para las tareas */
+.tarea {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  text-align: left;
+}
+
+/* Tareas al ser arrastradas */
+.tarea:active {
+  background-color: #e0e0e0;
+}
