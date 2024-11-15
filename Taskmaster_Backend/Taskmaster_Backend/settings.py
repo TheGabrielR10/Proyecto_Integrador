@@ -55,7 +55,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'leitonruiz15@gmail.com'
-EMAIL_HOST_PASSWORD = 'suzo smcz fttw csui'#Se debe crear contraseña de aplicaicon desde gmail y tener habilitado la dble autenticacion
+EMAIL_HOST_PASSWORD = 'xxx xxxx xxxx xxxx'#Se debe crear contraseña de aplicaicon desde gmail y tener habilitado la dble autenticacion
 
 # Deshabilitar CSRF para todas las vistas API (solo si es estrictamente necesario)
 CSRF_TRUSTED_ORIGINS = ['http://localhost:8000','http://127.0.0.1:8000/']
